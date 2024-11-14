@@ -25,3 +25,20 @@
     char letter = 'B';
     bool isValid = false; //eller true;
     var input = Console.ReadLine();
+
+/* Oppgave 2: 
+ Lag en konsoll-applikasjon som lager 3 variabler. De kan hete a, b og sum. 
+    - a skal være en int. 
+    - b skal være en decimal. 
+
+Verdiene variablene skal ha er: 
+    - a = 5;
+    - b = 3;
+    - sum = a + b;
+
+Hva slags type variabel må sum være? 
+ */
+int a = 5;
+decimal b = 3.000;
+decimal sum = a + b;
+Console.WriteLine($"Summen av {a} + {b} er lik {sum}. {sum} er en decimal.");
