@@ -20,7 +20,7 @@
     long longNumber = 8;
     double doubleNumber = 15.0;
     float floatNumber = 15.08F; // nøyaktig
-    decimal decimalNumber = 15.0800; // veldig nøyaktig
+    decimal decimalNumber = 15.0800M; // veldig nøyaktig
     string text = "Hei på deg!";
     char letter = 'B';
     bool isValid = false; //eller true;
@@ -39,6 +39,6 @@ Verdiene variablene skal ha er:
 Hva slags type variabel må sum være? 
  */
 int a = 5;
-decimal b = 3.000;
+decimal b = 3.000M;
 decimal sum = a + b;
 Console.WriteLine($"Summen av {a} + {b} er lik {sum}. {sum} er en decimal.");
